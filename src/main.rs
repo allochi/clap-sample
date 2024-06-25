@@ -1,7 +1,7 @@
 use clap::{Args, Parser, Subcommand, ValueEnum};
 
 #[derive(Parser)]
-#[command(name = "echor", version = "0.1.0", author="allochi", about = "Does awesome things", long_about = None)]
+#[command(name = "greet", version = "0.1.0", author="allochi", about = "sample clap application using greet example", long_about = None)]
 struct Cli {
     #[arg(short = 'f', long)]
     first: Option<String>, // optional argument
